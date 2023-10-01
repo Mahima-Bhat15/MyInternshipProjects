@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            align-items: center;
+        }
+        body{
+            width: 100%;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            background-image:url('backgroud.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        img{
+            width: 500px;
+            height: auto;
+            margin: 5px;
+            border: 6px double black;
+        }
+        p{
+            padding-left: 150px;
+            font-size: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        h1{
+            font-size: 70px;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 100;
+            padding-right: 700px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        h2{
+            font-size: 35px;
+            padding-right: 225px;
+            padding-top: 100px;
+            padding-left: 200px;
+            justify-content: center;
+            
+        }
+        img .last{
+            justify-content: center;
+            align-items: center;
+        }
+        .btn{
+
+            padding: 9px 14px;
+            
+    
+            border-radius: 22px;
+            color: white;
+            background-color: dodgerblue;
+            font-weight: bold;
+            font-size: 21px;
+            margin: 0 3px;
+            cursor: pointer;
+
+
+
+        }
+        .btn:hover{
+            background-color: white;
+            color: dodgerblue;
+
+        }
+
+        .new{
+            padding: 9px 14px;
+            
+    
+            border-radius: 22px;
+            color: white;
+            background-color: orange;
+            font-weight: bold;
+            font-size: 21px;
+            margin: 0 3px;
+            position: relative;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1><u> MY PROJECTS</u></h1>
+    <br><br>
+    <h2>Project 1 : using HTML , CSS , PHP , SQL , JAVACRIPT</h2>
+    <br><br>
+    <img src="proj1.jpeg">
+    <img src="proj2.jpeg">
+    <img src="proj3.jpeg">
+    <img src="proj5.jpeg">
+    <img class="last" src="proj4.jpeg"><br>
+    <br><br>
+    <p>
+        <ul>
+        <li>Exam-Aid is our all in one website which includes Reference textbooks, Lab manuals and Viva Q&A.<br></li>
+        <li>We have also included an additional feature to ensure everything you type is mistake-free, clear and polished.<br></li>
+        <li>It is a structures arrangement of materials which makes easy access to students from impossible to possible.</ul></li>
+
+    </p>
+    <h2>PROJECT 2: Simple project using javascript -> By pressing light on,the bulb turns on and vice versa.</h2>
+    
+
+    <script>
+    function light(sw) {
+    var pic;
+    if (sw == 0) {
+        pic = "pic_bulboff.jpg"
+    } else {
+        pic = "pic_bulbon.jpg"
+    }
+    document.getElementById('myImage').src = pic;
+    }
+    </script>
+
+<img id="myImage" src="pic_bulboff.jpg" width="25" height="40">
+
+<p>
+<button class="new" type="button" onclick="light(1)">Light On</button>
+<button class="new" type="button" onclick="light(0)">Light Off</button>
+</p>
+
+<br><br><br>
+
+    <a href="index.html">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><button class="btn">Back</button>
+    </a>
+
+    
+</body>
+</html>

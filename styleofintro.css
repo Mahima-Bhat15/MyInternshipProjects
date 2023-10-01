@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:ital@0;1&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: rgb(2, 2, 2);
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 100px;
+    
+
+
+}
+.wrapper{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url('backgroud.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.testimonial{
+    padding: 30px 100px;
+
+
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+}
+table, th, td {
+    border: 1px solid black;
+    font-size: 45px;
+  }
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+
+.btn button{
+  margin-top: 0;
+  padding-top: 10px;
+  background-color: rgb(71, 101, 131);
+  justify-content: right;
+}

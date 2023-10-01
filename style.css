@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding:0;
+}
+
+.sidebar {
+    background-color: rgb(66, 128, 128);
+    width: 25vw;
+    height: 100vh;
+    font-family: 'Lora', serif;
+
+}
+
+.sidebar nav {
+    padding: 30px 0;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: medium;
+    padding: 33px;
+}
+.sidebar nav li a {
+text-decoration: none;
+color: black;
+}
+
+.main {
+    /*background-color: aqua;*/
+
+    width: 85vw;
+}
+
+.container {
+    display: flex;
+    background-image: url('backgroud.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.infoContainer {
+    /*background-color: rgb(98, 98, 112);*/
+    padding-top: 10px;
+    height: 45vh;
+    width: 60vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+    
+}
+
+
+.devPic img {
+    width: 219px;
+    height: 45vh;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lora', serif;
+
+}
+
+.hello {
+    font-size: 60px;
+    font-family: 'Lora', serif;
+    padding-bottom: 10px;
+
+}
+
+.my {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+
+.about {
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
+.moreabout{
+    font-size: 15px;
+    margin-top: 23px;
+    padding-bottom: 10px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.button{
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 100px;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lora', serif;
+
+
+}
+.contactform h1{
+    font-family: 'Lora', serif;
+    padding:12px 0;
+
+}
+
+.contactform form div{
+    padding:15px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width:22vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: red;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 30px;
+    margin: 3px 0;
+}
+h2{
+    border: 4px rgb(74, 131, 131);
+    font-size: 75px;
+    color: black;
+    text-align: center;
+}
+h2.double {border-style: double;
+padding-top: 75px;}
+
+p{
+    font-size: 25px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-google {
+    
+    background: #dd4b39;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+  .testimonial{
+    align-content: center;
+  }
+  table, th, td {
+    border: 1px solid black;
+    font-size: 45px;
+  }
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
